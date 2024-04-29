@@ -1,0 +1,59 @@
+* {
+    font-family: verdana;
+}
+
+h1 {
+    text-align: center;
+    /* para centrar h1 */
+    font-size: 25px;
+}
+
+header { 
+    background-color: black;
+    color: white;   
+    justify-content: space-between;
+}
+nav { 
+    position: relative;
+}
+
+.nav-enlace,
+menu a {
+    background-color: gray;
+    color: white;
+    text-decoration: none; 
+    padding: 3px;
+    border-radius: 5px;   
+    font-size: 12px; 
+}
+
+p, 
+ul {
+    text-align: justify;
+    margin-right: 5%;
+}
+table {
+   border: black solid 2px;
+}
+th {
+    width: 30%; /* ancho de columna */
+    text-align: left; /* texto alineado hacia la izquierda */
+    text-decoration: underline; /* texto subrayado */
+}
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+   /* position: fixed; deja el footer fijo en la ventana del dispositivo */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    height: 50px;
+}
+
+footer a,
+footer p {
+    text-align: center;
+    color: white;
+}
